@@ -23,8 +23,9 @@ O projeto deve ser feito utilizando as boas práticas de prompt engineer.
 - [💪 Biotipos Corporais](#-biotipos-corporais)
 - [📅 Dias Disponíveis para Treino](#-dias-disponíveis-para-treino)
 - [🏋️ Tipos de Exercícios](#️-tipos-de-exercícios)
+- [🥕 Nutrição](#-Nutrição)
+- [👨‍🏭 Trabalho](#-Trabalho)
 - [🛠️ Regras de negócio](#️-regras-de-negócio)
-- [📖 Material de Apoio](#-material-de-apoio)
 - [🎯 Prompt de Resposta Proposto](#-prompt-de-resposta-proposto)
 
 ---
@@ -33,6 +34,13 @@ O projeto deve ser feito utilizando as boas práticas de prompt engineer.
 
 Este projeto visa criar um assistente de personal trainer automatizado que ajuda a gerar treinos personalizados. O usuário fornecerá informações como o biotipo corporal, a quantidade de dias disponíveis para treinar na semana e o tipo de exercício preferido, e o assistente gerará um plano de treino ideal com base nessas informações.
 
+---
+## Areas de Variáveis
+   - biotipo = endomorph
+   - periodização = 3 dias de treino
+   - tipo = HIIT e Cardio
+   - nutrição = Mix
+   - trabalho = Trabalho Online
 ---
 
 ## 💪 Biotipos Corporais
@@ -102,6 +110,23 @@ A terceira regra envolve a escolha do tipo de exercício preferido. Aqui estão 
 
 ---
 
+## 🥕 Nutrição
+
+ A quarta regra envolve a escolha da dieta preferida. Aqui estão algumas categorias com exemplos:
+- Fitness: Dieta com Muitas Proteínas (Frango, Ovos, Iogurte, Lentilhas), Verduras e Frutas
+- Mix: Mistura de Comidas com Proteínas e Carboidrato, mas leve no açúcar
+- Lazy: Comida de Fast Food "Fitness". Popeyes, Subway, Olive Garden, etc. (Muito Carboidrato)
+---
+
+## 👨‍🏭 Trabalho
+
+ A quinta regra envolve a escolha do Trabalho atual
+- Trabalhos Físicos: Trabalhos que demanda muita energia, treinamento, e/ou de costume. (Sports, Treinador Personal, etc.)
+- Trabalhos Mixed: Trabalhos que demanda planejamento, foco, e/ou estrategia. (Líder Militar, Cinematografia, Grand Master Xadrez, etc.)
+- Trabalhos Estudo: Trabalhos que demanda o uso total do cerebro para estudo e/ou não falhar. (Doutor/a, Cirurgião, etc.)
+- Trabalho Online: Trabalho que demanda nenhum uso do corpo físico. (Programador, Escritor, Dublador, etc.)
+---
+
 ## 🛠️ Regras de negócio
 
 1. **Identifique seu biotipo corporal** consultando a seção de biotipos.
@@ -110,14 +135,98 @@ A terceira regra envolve a escolha do tipo de exercício preferido. Aqui estão 
 4. Use o prompt do assistente para gerar um plano de treino personalizado.
 
 ---
+# Prompts
 
-## 📖 Material de Apoio
+## ❓ O Prompt
+[...]
 
-Aqui estão alguns recursos adicionais que podem ser úteis para entender melhor o projeto e as práticas de prompt engineering:
+Baseado nas regras acima, examine minhas preferencias na Areas de Variáveis e crie um plano de treinamento para mim.
 
-- [Fundamentos de Engenharia de prompt](https://elidianaandrade.gitbook.io/fundamentos-de-engenharia-de-prompts-com-claude-3)
-- [Boas práticas de prompt](https://aline-antunes.gitbook.io/otimize-seus-prompts-e-aprenda-mais-usando-ias-1)
+## 🎯 Prompt de Resposta Proposto
+
+Claro! Vamos criar um plano de treinamento baseado nas suas preferências e informações fornecidas:
+
+### **Plano de Treino Personalizado**
+
+**Biotipo:** Endomorfo  
+**Periodização:** 3 dias de treino por semana  
+**Tipo de Exercício:** HIIT e Cardio  
+**Nutrição:** Mix  
+**Trabalho:** Trabalho Online
+
+#### **Estrutura do Treino ABC**
+
+Com base no seu biotipo e no fato de que você tem 3 dias por semana para treinar, o plano se concentra em HIIT e Cardio para maximizar a queima de gordura e melhorar a resistência cardiovascular. Aqui está a divisão dos treinos:
 
 ---
 
-## 🎯 Prompt de Resposta Proposto
+**Dia A - Cardio e Core**
+
+- **Aquecimento:**
+  - 5-10 minutos de caminhada rápida ou corrida leve
+
+- **Cardio:**
+  - Corrida Intervalada: 30 minutos (1 minuto de corrida intensa seguido por 2 minutos de caminhada)
+
+- **Exercícios de Core:**
+  - Prancha: 3 séries de 30-45 segundos
+  - Crunches: 3 séries de 15-20 repetições
+  - Elevação de Pernas: 3 séries de 15-20 repetições
+
+- **Alongamento:**
+  - 5-10 minutos de alongamentos focados em abdômen e quadris
+
+---
+
+**Dia B - HIIT**
+
+- **Aquecimento:**
+  - 5-10 minutos de pular corda ou bicicleta
+
+- **Treino HIIT:**
+  - Circuito de 4 Rodadas:
+    - 30 segundos de Burpees
+    - 30 segundos de Saltos no Lugar
+    - 30 segundos de Mountain Climbers
+    - 30 segundos de Descanso
+
+- **Alongamento:**
+  - 5-10 minutos de alongamentos dinâmicos e estáticos
+
+---
+
+**Dia C - Cardio Moderado e Corpo Superior**
+
+- **Aquecimento:**
+  - 5-10 minutos de caminhada rápida ou bicicleta
+
+- **Cardio:**
+  - Ciclismo ou Elíptico: 30 minutos em intensidade moderada
+
+- **Exercícios de Corpo Superior:**
+  - Flexões: 3 séries de 10-15 repetições
+  - Remada com Halteres: 3 séries de 10-12 repetições
+  - Desenvolvimento de Ombros com Halteres: 3 séries de 10-12 repetições
+
+- **Alongamento:**
+  - 5-10 minutos de alongamentos focados em peito, costas e ombros
+
+---
+
+### **Notas Adicionais**
+
+- **Aquecimento e Alongamento:** Sempre inicie com um aquecimento leve e finalize com alongamentos para prevenir lesões e melhorar a flexibilidade.
+- **Recuperação:** Com o seu biotipo endomorfo, é importante incluir dias de descanso e garantir uma boa recuperação entre os treinos. Atividades leves, como caminhadas, podem ser benéficas nos dias sem treino.
+- **Nutrição:** Para um biotipo endomorfo e considerando que você tem um trabalho online, uma dieta balanceada é crucial. Mantenha uma mistura de proteínas e carboidratos, evitando excessos de açúcares e priorizando alimentos integrais.
+
+#### **Exemplos de Refeições para uma Dieta Mix**
+
+- **Café da Manhã:** Aveia com frutas e uma fonte de proteína, como iogurte grego ou ovo cozido.
+- **Almoço:** Peito de frango grelhado com arroz integral e vegetais variados.
+- **Jantar:** Salada de quinoa com legumes e tofu ou peixe grelhado.
+
+- **Lanches:** Frutas frescas, nozes ou um shake de proteína.
+
+---
+
+Este plano de treino e nutrição deve ajudar a atingir seus objetivos de forma eficaz. Se precisar de mais ajustes ou tiver alguma dúvida, estou à disposição para ajudar!
